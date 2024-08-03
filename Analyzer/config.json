@@ -1,0 +1,17 @@
+// config.json
+{
+  "adminHost": "http://127.0.0.1:9001",
+  "rootVideoDir": "D:\\dev\\source\\a_v\\BXC_VideoAnalyzer_v1\\zlm\\data",
+  "subVideoDirFormat": "%Y/%m/%d-%H-%M",
+  "controlExecutorMaxNum": 200,
+  "supportHardwareVideoDecode": false,
+  "supportHardwareVideoEncode": false,
+  "algorithmType": "api", // py:����pythonʵ�ֵ��㷨 api:����api�ӿ�ʵ�ֵ��㷨
+  "algorithmInstanceNum": 1, // �㷨ʵ������
+  "algorithmPath": "D:\\dev\\source\\a_v\\BXC_VideoAnalyzer_v1\\Algorithm",
+  "algorithmDevice": "cpu",
+  "algorithmApiHosts": [
+    "http://127.0.0.1:9003"
+  ]
+
+}
